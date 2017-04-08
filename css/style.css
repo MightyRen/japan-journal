@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+h1, h2, h3, h4 { 
+	font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+header {
+	background-color: black;
+	color: white;
+	background-image: url(../images/header-bg.jpg);
+	height:600px;
+	text-align: center;
+	padding-top: 200px;
+}
+
+header h1 {
+	font-size: 60px;
+}
+
+
+
+header p {
+	font style: italic;
+	margin-bottom: 30px;
+}
+
+.button {
+	font-family:'Montserrat', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 5px solid white;
+	color: white;
+	padding: 10px 20px; 
+}
+
+.button {
+	background-color: white;
+	color: black;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li{
+	display:inline-block;
+	margin-left: 20px;
+}
+
+.logo {
+	color: red;
+	margin-right: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Categories section */
+.categories {
+	padding: 30px 0px;
+	text-align: center;
+}
+
+.categories ul {
+	padding: 0;
+}
+
+.categories ul li {
+	float: left;
+	width: 23%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.categories img {
+	max-width: 100%;
+}
+
+.categories h3 {
+	text-transform: uppercase; 
+	margin-bottom: 0;
+}
+
+.categories .button {
+	color:black;
+	border: 5px solid black;
+}
+
+/* Quote section */
+.quote {
+	background-color: black;
+	color: white;
+	background-image: url(../images/quote-bg.jpg);
+	height:300px;
+	text-align: center;
+	padding: 200px 100px;
+	background background-attachment: fixed;
+}
+
+ .quote h1 p {
+	font-size: 60px;
+}
+
+.quote h1 p {
+	font style: italic;
+	margin-bottom: 50px;
+}
+
+.featured {
+	padding: 30px 0px;
+	text-align: center;
+}
+
+.featured ul {
+	padding: 0;
+}
+
+.featured ul li {
+	float: left;
+	width: 31%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.featured img {
+	max-width: 100%;
+}
+
+.featured h4 {
+	background-color: red;
+	color: white;
+	display: inline-block;
+	height:20px;
+	text-align: center;
+	padding: 20px 40px;
+	background background-attachment: fixed;
+}
+
+.featured h3 {
+	text-transform: uppercase; 
+	margin-bottom: 0;
+}
+
+.featured .button {
+	color:black;
+	border: 5px solid black;
+}
+
+@media (max-width: 600px) {
+	.categories ul li, .featured ul li{
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
+}
+
+
